@@ -346,7 +346,7 @@ img {
 
 .img-responsive {
   display: block;
-  height: 100;
+  height: 200;
 }
 
 .img-rounded {
@@ -1093,7 +1093,7 @@ pre code {
     width: 25%;
   }
   .col-md-4 {
-    width: 33.33333333333333%;
+    width: 27.75%;
   }
   .col-md-5 {
     width: 41.66666666666667%;
