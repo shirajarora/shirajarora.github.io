@@ -266,7 +266,7 @@
           </div>
         </div>
         
-        <div id="research" class="page" >
+				<div id="research" class="page" >
 					<div class="pageheader">
 						<div class="headercontent">
 							<div class="section-container">
@@ -347,14 +347,65 @@
                             </div>
                         </div>
 
+                       
                         <div class="pagecontents">
+                            <!--div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="jpaper">Jounal Papers</option>
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <!--option class="filter" value="bookchapter">Book Chapters</option-->
+                                                <!--option class="filter" value="book">Books</option-->
+                                                <!-- <option class="filter" value="report">Reports</option-->
+                                                <!--option class="filter" value="tpaper">Technical Papers</option> -->
+                                            <!--/select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div-->
+                            
                             <div class="section color-1" id="pub-grid">
                                 <div class="section-container">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="pitems">
-
-            <div class="item mix cpaper mix_all" data-year="2017" style="display: block;  opacity: 1;">
+												
+												<div class="item mix cpaper mix_all" data-year="2018" style="display: block;  opacity: 1;">
+                                                    <div class="pubmain">
+                                                        <h4 class="pubtitle">Statistical Model Checking of Incomplete Stochastic Systems</h4>                                                            
+                                                        <div class="pubauthor"><strong>Shiraj Arora</strong>, Axel Legay, Tania Richmond, Louis-Marie Traonouez</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> ISoLA 2018 : 8th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation — Oct 30 - Nov 13, 2018</div>
+                                                        <p align="right"><a href="https://link.springer.com/chapter/10.1007/978-3-030-03421-4_23" class="tooltips" title="" target="_blank" data-original-title="External link">
+                                                            [link]</a></p>
+                                                    </div>
+                                                    <div class="pubdetails" align="justify">
+                                                        <h4>Abstract</h4>
+                                                        <p>We study incomplete stochastic systems that are missing some parts of their design, or are lacking information about some components. 
+                                                        It is interesting to get early analysis results of the requirements of these systems, in order to adequately refine their design. 
+                                                        In previous works, models for incomplete systems are analysed using model checking techniques for three-valued temporal logics. In this 
+                                                        paper, we propose statistical model checking algorithms for these logics. We illustrate our approach on a case-study of a network system 
+                                                        that is refined after the analysis of early designs.</p>
+														<p> </p>
+                                                    </div>
+                                                </div>
+												
+												<div class="item mix jpaper mix_all" data-year="2017" style="display: block;  opacity: 1;">
                                                     <div class="pubmain">
                                                         <h4 class="pubtitle">Probabilistic Model Checking of Incomplete models</h4>                                                            
                                                         <div class="pubauthor"><strong>Shiraj Arora</strong>, M. V. Panduranga Rao</div>
@@ -378,7 +429,7 @@ Keywords: Probabilistic models, Probabilistic Model checking Three-valued Logic,
                                                     <div class="pubmain">
                                                         <h4 class="pubtitle">Probabilistic Model Checking of Incomplete models</h4>                                                            
                                                         <div class="pubauthor"><strong>Shiraj Arora</strong>, M. V. Panduranga Rao</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span>  ISoLA 2016 : 7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span>  ISoLA 2016 : 7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation — October 5 - 14, 2016</div>
                                                         <p align="right"><a href="https://link.springer.com/chapter/10.1007/978-3-319-47166-2_5" class="tooltips" title="" target="_blank" data-original-title="External link">
                                                             [link]</a></p>
                                                     </div>
@@ -428,36 +479,7 @@ Keywords: Probabilistic models, Probabilistic Model checking Three-valued Logic,
                 </div>
 
 
-                            <!--div class="section color-1" id="filters">
-                                <div class="section-container">
-                                    <div class="row">
-                                        
-                                        <div class="col-md-3">
-                                            <h3>Filter by type:</h3>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
-                                                <option class="filter" value="all" selected>All types</option>
-                                                <option class="filter" value="jpaper">Jounal Papers</option>
-                                                <option class="filter" value="cpaper">Conference Papers</option>
-                                                <option class="filter" value="bookchapter">Book Chapters</option>
-                                                <option class="filter" value="book">Books</option>
-                                                <!-- <option class="filter" value="report">Reports</option>
-                                                <option class="filter" value="tpaper">Technical Papers</option> -->
-                                            <!--/select>
-                                        </div>
-                                        
-                                        <div class="col-md-3" id="sort">
-                                            <span>Sort by year:</span>
-                                            <div class="btn-group pull-right"> 
-
-                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
-                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
-                                            </div>
-                                        </div>    
-                                    </div>
-                                </div>
-                            </div-->
+                            
   
                 <div id="contact" class="page stellar" >
                     <div class="pageheader">
